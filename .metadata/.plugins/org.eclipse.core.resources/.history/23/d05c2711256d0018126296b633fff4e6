@@ -1,0 +1,10 @@
+package exam12_4.boundedtype;
+
+public class BoundedTypeParamTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

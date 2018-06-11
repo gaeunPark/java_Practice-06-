@@ -1,0 +1,16 @@
+package sec1_5.wildcardgenerics;
+
+public class wildcardTest {
+	public static void registerCourese(Course<?> course) {}
+	public static void registerCoureseStudent(Course<? extends Student> course) {}
+	
+	public static void main(String[] args) {
+		registerCourese(new Course<Person>("일반인 과정", 5));
+		registerCourese(new Course<Student>("학생 과정", 5));
+		registerCourese(new Course<Worker>("직장인 과정", 5));
+		registerCourese(new Course<HighStudent>("고등학생 과정", 5));
+		
+		registerCoureseStudent(new Course<Worker>("고등학생 과정", 5));
+	}
+
+}

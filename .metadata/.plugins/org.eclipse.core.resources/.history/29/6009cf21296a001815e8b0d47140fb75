@@ -1,0 +1,9 @@
+package sec1_7.comparator;
+
+public class DescComp implements Comparator {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package sec1_5.wildcardgenerics;
+
+public class WilecardTest2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package sec8_5.annonymous;
+
+public class InnerEx {
+	Object obj = new Object() {
+		void method() {
+			
+		}
+	};
+	
+	static Object cv = new Object() {
+		void method() 
+			
+		}
+	};
+	
+	void mymethod() {
+		Object Iv = new Object() {
+			void method() {}
+		};
+	}
+	
+}

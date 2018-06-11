@@ -1,0 +1,5 @@
+package exam8_21.exception;
+
+public class SpaceException {
+	
+}

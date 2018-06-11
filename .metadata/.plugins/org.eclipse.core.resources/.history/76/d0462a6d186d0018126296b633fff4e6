@@ -1,0 +1,21 @@
+package sec1_3.multigenerics;
+
+public class Product {
+	private T kind;
+	private T model;
+	
+	public T getKind() {
+		return kind;
+	}
+	public void setKind(T kind) {
+		this.kind = kind;
+	}
+	public T getModel() {
+		return model;
+	}
+	public void setModel(T model) {
+		this.model = model;
+	}
+	
+	
+}

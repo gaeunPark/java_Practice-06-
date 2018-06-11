@@ -1,0 +1,20 @@
+package sec1_5.wildcardgenerics;
+
+public class Course<T> {
+	private String name;
+	private T[] students;
+	
+	public Course(String name, int capacity) {
+		this.name = name;
+		students = (T[])(new Object[capacity]);
+		//new T[capacity]; 객체생성 불가!
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	
+}

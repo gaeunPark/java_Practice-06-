@@ -1,0 +1,19 @@
+package exam11_2.arrayList;
+
+import java.util.ArrayList;
+
+public class ArrayListTest {
+	public static void main(String[] args) {
+		ArrayList list = new ArrayList(); //JDK1.8 기본 크기 10
+		for(int i=1; i<7; i++) {
+			list.add(i+i+i);
+		}
+		System.out.println(list);
+		list.add(0, "000");
+		System.out.println(list);
+		System.out.println(list.indexOf("333"));
+		System.out.println(list.remove("333"));
+		System.out.println(list);
+		System.out.println(list.indexOf("333"));
+	}
+}

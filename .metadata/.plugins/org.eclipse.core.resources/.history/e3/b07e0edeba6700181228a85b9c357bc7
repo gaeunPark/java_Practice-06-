@@ -1,0 +1,10 @@
+package exam7.interface7;
+
+public class MyCalculator {
+	@Override
+	public int add(int x, int y) {
+		return x + y;
+	}
+	
+
+}

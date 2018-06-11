@@ -1,0 +1,20 @@
+package exam8.exception;
+
+public class ExceptionTest2 {
+	
+	static int get50thItem(int[] array) throws Exception {
+		return array[49];
+	}
+	
+	public static void main(String[] args) {
+		int[] array = new int[10];
+		
+		try {
+			int result = get50thItem(array);
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+}

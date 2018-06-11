@@ -1,0 +1,8 @@
+package sec7_8.interfaceB;
+
+public class B implements I {
+	@Overrice
+	public void methodB() {
+		System.out.println("methodB()");
+	}
+}

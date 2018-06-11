@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="sec1_2.SongTest.Song"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="sec7_9.defaultInterface.MyCalculator"/>
+<fullyQualifiedTypeName name="sec7_9.defaultInterface.Calculator"/>
+<fullyQualifiedTypeName name="exam7.interface7.MyCalculator"/>
+<fullyQualifiedTypeName name="sec8_3.innerClass.InnerTest.Inner"/>
+<fullyQualifiedTypeName name="sec8_3.innerClass.InnerTest2.Inner"/>
+<fullyQualifiedTypeName name="sec8_4.innerClass.Outer.Inner"/>
+<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="exam8_21.exception.ExceptionTest"/>
+<fullyQualifiedTypeName name="exam8_21.exception.SpaceException"/>
+<fullyQualifiedTypeName name="exam8_21.exception.MemoryException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+package exam8_14.exception;
+
+public class ExceptionTest14 {
+	public static void main(String[] args) throws Exception {
+		method();
+	}
+	
+	public static void method() throws Exception {
+			throw new Exception();		
+	}
+}

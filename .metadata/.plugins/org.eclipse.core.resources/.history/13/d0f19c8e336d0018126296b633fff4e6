@@ -1,0 +1,11 @@
+package sec1_5.wildcardgenerics;
+
+public class wildcardTest {
+
+	public static void registerCourese(Course<?> course) {}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

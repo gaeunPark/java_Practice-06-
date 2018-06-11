@@ -1,0 +1,10 @@
+package exam11_5.ArrayListLinkedList;
+
+public class ArrayListLinkedListTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

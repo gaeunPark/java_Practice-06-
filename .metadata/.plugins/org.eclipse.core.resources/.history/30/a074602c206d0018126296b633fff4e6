@@ -1,0 +1,5 @@
+package exam12_2.generics1;
+
+public class fruitBox<T extends Fruit & Eatable> extends Box<T> {
+	
+}

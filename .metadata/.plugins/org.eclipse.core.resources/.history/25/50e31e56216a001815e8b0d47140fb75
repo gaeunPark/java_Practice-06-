@@ -1,0 +1,23 @@
+package sec1_6.Arrays;
+
+import java.util.Arrays;
+
+public class ArraysTest {
+
+	public static void main(String[] args) {
+		int[] arr1 = {3, 1, 5, 2, 7, 9};
+		int[] arr2 = {3, 1, 5, 2, 7, 9};
+		
+		System.out.println(Arrays.toString(arr1));
+		
+		int[][] arr2D = {{11, 12}, {21, 22}};
+		int[][] arr2D2 = {{11, 12}, {21, 22}};
+		System.out.println(Arrays.toString(arr2D));
+		System.out.println(Arrays.toString(arr2D2));
+		
+		System.out.println(Arrays.equals(arr1, arr2));
+		System.out.println(Arrays.equals(arr2D, arr2D2));
+		System.out.println(Arrays.deepEquals(arr2D, arr2D2));
+	}
+
+}

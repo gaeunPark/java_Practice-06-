@@ -1,0 +1,7 @@
+package sec8_3.innerClass;
+
+public class InnerTest2 {
+	public static void main(String[] args) {
+		
+	}
+}

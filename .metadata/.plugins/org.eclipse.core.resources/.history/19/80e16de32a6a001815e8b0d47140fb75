@@ -1,0 +1,14 @@
+package sec1_7.comparator;
+
+public class ComparableTest {
+
+	public static void main(String[] args) {
+		Student[] arr = {
+				new Student(100, "abc"),
+				new Student(100, "abc"),
+				new Student(100, "abc"),
+				new Student(100, "abc")
+				}
+	}
+
+}

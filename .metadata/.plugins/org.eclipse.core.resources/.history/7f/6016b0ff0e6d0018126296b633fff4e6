@@ -1,0 +1,5 @@
+package sec1_1Generics2;
+
+public class Box<T> {
+
+}

@@ -1,0 +1,6 @@
+package sec7_8.interfaceB_2;
+
+public interface Calculator {
+	public int add(int x, int y);
+	public int multi(int x, int y);
+}

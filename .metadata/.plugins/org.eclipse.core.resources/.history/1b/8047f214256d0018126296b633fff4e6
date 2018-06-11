@@ -1,0 +1,11 @@
+package exam12_4.boundedtype;
+
+public class BoundedTypeParamTest {
+
+	public static void main(String[] args) {
+//		Util.compare("a", "b");
+		Util.compare(10, 20);
+
+	}
+
+}

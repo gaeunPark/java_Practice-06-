@@ -1,0 +1,17 @@
+package exam11_31.hashmap;
+
+import java.util.HashMap;
+
+public class HashMapTest2 {
+
+	public static void main(String[] args) {
+		HashMap map = new HashMap();
+		map.put("김자바", new Integer(90));
+		map.put("박자바", new Integer(100));
+		map.put("이자바", new Integer(80));
+		map.put("안자바", new Integer(70));
+		map.put("강자바", new Integer(60));
+		System.out.println(map);
+	}
+
+}

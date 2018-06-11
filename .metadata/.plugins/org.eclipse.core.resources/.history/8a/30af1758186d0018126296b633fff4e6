@@ -1,0 +1,7 @@
+package sec1_3.multigenerics;
+
+public class Product {
+	String kind() {
+		return "";
+	}
+}

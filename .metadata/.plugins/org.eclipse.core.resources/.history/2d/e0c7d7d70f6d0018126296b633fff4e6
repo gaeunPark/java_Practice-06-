@@ -1,0 +1,19 @@
+package sec1_1Generics2;
+
+public class BoxTest {
+	public static void main(String[] args) {
+		Box<Object> box = new Box<>();
+		box.setBox(new Object());
+		box.getBox();
+		
+		box<String> box2 = new Box();
+		box.setBox("ȫ�浿");
+		Object str = box.getBox();
+
+		box.setBox((Object)1);
+		int value = (int)box.getBox();
+		System.out.println(value);
+		
+	}
+
+}

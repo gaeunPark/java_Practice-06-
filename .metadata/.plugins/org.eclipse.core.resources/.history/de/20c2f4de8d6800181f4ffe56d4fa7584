@@ -1,0 +1,25 @@
+package exam8_21.exception;
+
+public class ExceptionTest {
+	public static void main(String[] args) {
+		method1();
+		System.out.println("method()의 수행을 마치고 main메서드로 돌아왔습니다.");
+	}
+	
+	static void startInstall() throws Exception {
+		if(!enoughSpace())
+			throw new SpaceException("설치할 공간이 부족합니다.");
+		if(!enoughMemory())
+			throw new MemoryException("메모리가 부족합니다.");
+	}
+	
+	static void copyFiles() {}
+	static void deleteTempFile() {}
+	static boolean enoughSpace() {
+		return false;
+	}
+	static boolean enoughMemory() {
+		return false;
+	}
+	
+}

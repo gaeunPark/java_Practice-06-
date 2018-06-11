@@ -1,0 +1,16 @@
+package exam8.exception;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		int[] array = new int[10];
+		
+		try {
+			array[20] = 5;
+		} catch(ArithmeticException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

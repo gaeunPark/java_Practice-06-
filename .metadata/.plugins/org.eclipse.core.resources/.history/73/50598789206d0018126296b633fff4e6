@@ -1,0 +1,10 @@
+package exam12_2.generics1;
+
+public class FruitBoxTest {
+
+	public static void main(String[] args) {
+		FruitBox<Fruit> fruitBox = new FruitBox<Fruit>();
+		
+	}
+
+}

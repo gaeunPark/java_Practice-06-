@@ -1,0 +1,11 @@
+package exam8.exception;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		int[] array = new int[10];
+		array[20] = 5;
+
+	}
+
+}

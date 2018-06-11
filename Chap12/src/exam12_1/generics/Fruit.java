@@ -1,0 +1,7 @@
+package exam12_1.generics;
+
+public class Fruit {
+	public String toString(){
+		return "Fruit";
+	}
+}

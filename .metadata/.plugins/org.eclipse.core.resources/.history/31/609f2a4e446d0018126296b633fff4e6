@@ -1,0 +1,10 @@
+package exam12_5.wildcardgenerics;
+
+public class FruitBoxTest {
+
+	public static void main(String[] args) {
+		FruitBox<Fruit> fruitBox = new FruitBox<>();
+		FruitBox<Apple> appleBox = new FruitBox<>();
+	}
+
+}

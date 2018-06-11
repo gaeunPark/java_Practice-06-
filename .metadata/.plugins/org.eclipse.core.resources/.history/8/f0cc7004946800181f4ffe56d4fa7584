@@ -1,0 +1,23 @@
+package exam8.exception;
+
+public class ExceptionTest2 {
+
+	public static void main(String[] args) {
+		int[] array = new int[10];
+		
+		try {
+//			array[20] = 5;
+			get50thItem(array);
+		} catch(ArrayIndexOutOfBoundsException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public class ExceptionTest2 {
+		public int get50thItem(int[] array) throws Exception {
+			return array[49];
+		}
+	}
+
+}

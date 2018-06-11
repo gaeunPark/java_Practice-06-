@@ -1,0 +1,15 @@
+package sec1_7.comparator;
+
+import java.util.Arrays;
+
+public class SortTest {
+	public static void main(String[] args) {
+		Integer[] arr = {30, 50, 10, 50, 20};
+		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
+		
+		Arrays.sort(arr, new DescComp());
+		System.out.println(Arrays.toString(arr));
+	}
+
+}

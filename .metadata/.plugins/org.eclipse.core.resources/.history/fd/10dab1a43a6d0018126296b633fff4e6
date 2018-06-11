@@ -1,0 +1,24 @@
+package sec1_5.wildcardgenerics;
+
+import java.util.Arrays;
+
+public class WilecardTest2 {
+	public static void registerCourese(Course<?> course) {
+		System.out.println(course.getName() + "수강생" + Arrays.toString(course.getStudents()));
+	}
+	public static void registerCoureseStudent(Course<? extends Student> course) {
+		System.out.println(course.getName() + "수강생" + Arrays.toString(course.getStudents()));
+	}
+	public static void registerCoureseWorker(Course<? super Student> course) {
+		System.out.println(course.getName() + "수강생" + Arrays.toString(course.getStudents()));
+	}
+	
+	public static void main(String[] args) {
+		Course<Person> personCourse = new Course<>("일반인 과정", 5);
+		personCourse.add(new Person("일반인"));
+		personCourse.add(new Person("직장인"));
+		personCourse.add(new Person("학생"));
+		personCourse.add(new Person("고등학생"));
+	}
+
+}
